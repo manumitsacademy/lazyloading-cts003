@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AbcGuard } from '../core/abc.guard';
 import { AddstudentComponent } from './addstudent/addstudent.component';
 import { StudentComponent } from './student/student.component';
 import { StudentlistComponent } from './studentlist/studentlist.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
         component:AddstudentComponent
       }
     ]
+    
   }
   
 ];
